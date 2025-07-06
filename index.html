@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Flip Pack: God Bless The USA | Have It Made</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
   <header>
@@ -11,39 +13,52 @@
     <h1>Flip Pack • God Bless The USA</h1>
     <p class="subtitle">Gospel‑Trap Logic Pro Template</p>
   </header>
+
   <section class="preview">
+    <h2>🔊 Listen + Watch</h2>
     <div class="media-player">
       <audio controls src="assets/audio/FlipDemo_GodBlessUSA.mp3"></audio>
-      <video controls src="assets/video/TemplatePreview_GodBlessUSA.mp4"></video>
+      <video controls src="assets/video/TemplatePreview_GodBlessUSA.mp4" poster="assets/images/CoverArt_GodBless.jpg"></video>
     </div>
   </section>
-  <section class="logic-ui">
-    <h2>Session View</h2>
-    <div class="track-grid">
-      <div class="track header">Track</div><div class="track header">Type</div><div class="track header">FX</div>
-      <div class="track">Choir Stack</div><div class="track">Software Instrument</div><div class="track">Bus Reverb</div>
-      <div class="track">Drum Rack</div><div class="track">Software Instrument</div><div class="track">Sidechain Comp</div>
-      <div class="track">Organ</div><div class="track">Software Instrument</div><div class="track">Tape Saturator</div>
-      <div class="track">808 Bass</div><div class="track">Software Instrument</div><div class="track">Sub Comp</div>
-      <div class="track">Vocal (Slow)</div><div class="track">Audio Track</div><div class="track">Plate Reverb</div>
+
+  <section class="logic-ui realistic">
+    <div class="logic-header">
+      <button class="transport play">▶</button>
+      <button class="transport stop">■</button>
+      <button class="transport record">●</button>
+      <span class="position">Bar 1 | 00:00:00</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <div class="controls"><button>M</button><button>S</button><button>R</button></div>
+        <div class="lane audio"><div class="waveform"></div></div>
+      </div>
+      <div class="track">
+        <div class="controls"><button>M</button><button>S</button><button>R</button></div>
+        <div class="lane midi"><div class="midiblocks"></div></div>
+      </div>
     </div>
   </section>
+
   <section class="download">
-    <h2>Includes</h2>
+    <h2>📦 What's Inside</h2>
     <ul>
-      <li>Logic Project File (.logicx)</li>
-      <li>Stems (Drums, Instruments, Vocals, FX)</li>
-      <li>MIDI Chords & Melody</li>
-      <li>Vocal Chain Presets</li>
-      <li>Flip Demo & Session Walkthrough</li>
-      <li>Cover Art + Promo Assets</li>
+      <li>Logic Pro Project (.logicx)</li>
+      <li>Stems: Drums / Vocals / Instruments / FX</li>
+      <li>MIDI Chords + Melody</li>
+      <li>Vocal Presets: Slow Singer & Rapper</li>
+      <li>MP3 Demo & MP4 Session Walkthrough</li>
+      <li>Cover Art + IG Promo Square</li>
     </ul>
-    <a href="#" class="btn-download">Download Flip Pack</a>
+    <a href="#" class="btn-download">⬇ Download Flip Pack</a>
   </section>
+
   <footer>
     <p>© 2025 Have It Made Music</p>
-    <p>Email: himteam@domain.com | IG: @HaveItMadeMusic</p>
+    <p>Contact: <a href="mailto:himteam@domain.com">himteam@domain.com</a> • IG: <a href="https://instagram.com/HaveItMadeMusic" target="_blank">@HaveItMadeMusic</a></p>
   </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
